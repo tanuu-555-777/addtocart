@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | add to cart</title>
+    <link rel="stylesheet" href="addtocart.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <!--header and icon of cart-->
+    <header>
+        <a href="#" class="logo">🌸Plant Charm🍀 </a>
+        <div id="cart-icon">
+            <!-- <i class="ri-shopping-bag-line"></i> -->
+            <i class="ri-plant-line"></i>
+            <span class="cart-item"></span>
+        </div>
+    </header>
+
+    <!--shopping cart for adding items to buy-->
+    <div class="cart">
+        <h2 class="cart-title">🍀Plant Collection</h2>
+        <div class="cart-content">
+            <!-- <div class="cart-box">
+                <img src="/roses.jpeg" class="cart-img">
+                <div class="cart-detail">
+                    <h2 class="cart-product-title">roses</h2>
+                    <span class="cart-price">333</span>
+                    <div class="cart-quantity">
+                        <button class="minus">-</button>
+                        <span class="number-item">1</span>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <i class="ri-delete-bin-3-fill cart-remove"></i>
+            </div> -->
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">₹0</div>
+        </div>
+        <button class="btn-buy">Buy Now</button>
+        <i class="ri-close-line" id = "cart-close"></i>
+    </div>
+
+
+    <!--shop plant items-->
+    <section class="shop">
+        <h1 class="section-title">Shop Plants</h1>
+        <div class="plants-content">
+        <!--first 4-->    
+            <!--#1-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="roses.jpeg" alt="roses">
+                </div>
+                <h2 class="plant-title">Roses ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹333</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+
+            <!--#2-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="Lotus.jpg" alt="lotus">
+                </div>
+                <h2 class="plant-title">Lotus ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹444</span>
+                    <i class="ri-shopping-bag-line add-cart"></i>
+                </div>
+            </div>
+
+            <!--#3-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="Pink Hibiscus.jpeg" alt="Pink Hibiscus">
+                </div>
+                <h2 class="plant-title">Pink Hibiscus ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹200</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+
+            <!--#4-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="white azalea.jpeg" alt="white azalea">
+                </div>
+                <h2 class="plant-title">white azalea ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹350</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+
+            <!--second 4-->
+            <!--#5-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="white tulips.jpg" alt="white tulips">
+                </div>
+                <h2 class="plant-title">white tulips ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹250</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+    
+            <!--#6-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="blue-hydrengea.jpg" alt="blue hydrengea">
+                </div>
+                <h2 class="plant-title">blue hydrengea ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹350</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+    
+            <!--#7-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="orchids.jpg" alt="orchids">
+                </div>
+                <h2 class="plant-title">orchids✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹333</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+
+            <!--#8-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="Lotus.jpg" alt="lotus">
+                </div>
+                <h2 class="plant-title">Lotus ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹444</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+
+            <!--third 4-->
+            <!--#9-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="roses.jpeg" alt="roses">
+                </div>
+                <h2 class="plant-title">Roses ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹333</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+
+            <!--#10-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="Lotus.jpg" alt="lotus">
+                </div>
+                <h2 class="plant-title">Lotus ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹444</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+
+            <!--#11-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="roses.jpeg" alt="roses">
+                </div>
+                <h2 class="plant-title">Roses ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹333</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+
+            <!--#12-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="Lotus.jpg" alt="lotus">
+                </div>
+                <h2 class="plant-title">Lotus ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹444</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+
+            <!--fourth 4-->
+            <!--#13-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="roses.jpeg" alt="roses">
+                </div>
+                <h2 class="plant-title">Roses ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹333</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+
+            <!--#14-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="Lotus.jpg" alt="lotus">
+                </div>
+                <h2 class="plant-title">Lotus ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹444</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+
+            <!--#15-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="roses.jpeg" alt="roses">
+                </div>
+                <h2 class="plant-title">Roses ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹333</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+
+            <!--#16-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="Lotus.jpg" alt="lotus">
+                </div>
+                <h2 class="plant-title">Lotus ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹444</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+
+            <!--fifth 4-->
+            <!--#17-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="roses.jpeg" alt="roses">
+                </div>
+                <h2 class="plant-title">Roses ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹333</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+
+            <!--#18-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="Lotus.jpg" alt="lotus">
+                </div>
+                <h2 class="plant-title">Lotus ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹444</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+
+            <!--#19-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="roses.jpeg" alt="roses">
+                </div>
+                <h2 class="plant-title">Roses ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">333</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+
+            <!--#20-->
+            <div class="plant-box">
+                <div class="img-box">
+                    <img src="Lotus.jpg" alt="lotus">
+                </div>₹
+                <h2 class="plant-title">Lotus ✿</h2>
+                <div class="price-and-cart">
+                    <span class="price">₹444</span>
+                    <i class="ri-shopping-bag-line add-cart "></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--javascript-->
+    <script src="addtocart.js"></script>
+</body>
+</html>
